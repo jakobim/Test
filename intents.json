@@ -1,0 +1,28 @@
+{"intents": [
+
+    {"tag": "greetings",
+    "patterns" : ["hello","hi","goodbye","good day","greetings","whats up","how is it going"],
+    "reponses" : ["Hello !","Hey !","What can i do for you?"]
+    },
+
+   {"tag": "goodbye",
+    "patterns" : ["Cya !","Farewell","cya","been a pleasure","have a good day","bye","ciao"],
+    "reponses" : ["Too bad you have to go :(","See you soon !"]
+    },
+
+    {"tag": "age",
+        "patterns" : ["How old are you?","How old is your developper?","age?"],
+        "reponses" : ["My owners are around 28 and i was born the 24/11/2021."]
+        },
+
+    {"tag": "name",
+        "patterns" : ["name?","what is your name?","how should i call you","can you tell me your name?"],
+        "reponses" : ["My name is Hammurabi and my owners are named Baptiste, Guillaume and Milan"]
+        },
+        
+    {"tag": "time",
+        "patterns" : ["what time is it?","time?",],
+        "reponses" : ["$now()"]
+    },
+
+]}
